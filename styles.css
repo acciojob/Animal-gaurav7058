@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.animal-photos{
+#animal-photos{
       background-color: #24292f;
       display: grid;
       grid-template-columns: repeat(3,1fr);
