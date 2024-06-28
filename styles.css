@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.animal-photos{
+      background-color: #24292f;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(3,1fr);
+      width: 75%;
+      height: 805px;
+      margin: 100px;
+      grid-row-gap: 9px;
+      padding: 16px;
+  }
+  .item-1{
+      grid-column: 1 /span 3;
+      text-align: center;
+      color: white;
+  }
+  .item img{
+    /* margin-left: 40px; */
+    border-radius: 21px;
+  }
